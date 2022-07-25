@@ -1,0 +1,48 @@
+:root {
+    --main-color: #fff;
+    --sub-color: gray;
+    --third-color: Aquamarine;
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+    font-family: "Verdana",
+        sans-serif;
+    ;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.pic,
+video {
+    margin: 10px auto;
+}
+
+.title {
+    color: var(--main-color);
+}
+
+.t1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.t2,
+.t3 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.download_link {
+    color: var(--third-color);
+    font-size: 16px;
+    display: block;
+}
+
+.container p {
+    font-size: 21px;
+    color: var(--sub-color);
+}
