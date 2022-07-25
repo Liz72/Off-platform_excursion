@@ -42,7 +42,12 @@ video {
     display: block;
 }
 
-.container p {
+.container p,
+footer {
     font-size: 21px;
     color: var(--sub-color);
+}
+
+footer {
+    text-align: end;
 }
